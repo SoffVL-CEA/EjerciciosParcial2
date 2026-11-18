@@ -1,5 +1,5 @@
 name = []
-age = 0
+age = []
 birthday = []
 email = []
 password = []
@@ -29,6 +29,7 @@ while True:
 
         case 2:
             print("Nombre:", name, "Edad:", age, "Fecha de nacimiento:", birthday,"correo electronico:", email)
+            for i in range(len(name)):
         case 3:
             name = ""
             lastName = ""
