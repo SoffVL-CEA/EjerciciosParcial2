@@ -22,7 +22,8 @@ while True:
                 name.append (input("Ingresa tu nombre: "))
                 lastName.append (input("Ingresa tu apellido: ")
                 age = int(input("Ingresa tu edad: "))
-                birthday = input("Ingresa tu fecha de nacimiento: ")
+                birthday = input("Ingresa
+                 tu fecha de nacimiento: ")
                 email = input("Ingresa tu correo electrónico: ")
                 password = input("Ingresa tu contraseña: ")
                 confirmPass = input("Confirma tu contraseña: ")
@@ -30,6 +31,9 @@ while True:
         case 2:
             print("Nombre:", name, "Edad:", age, "Fecha de nacimiento:", birthday,"correo electronico:", email)
             for i in range(len(name)):
+                print("id:-", i," Con el nombre: ", name[i], " con el apellido: ", lastName[i] " Con la edad de: ", age[i]))
+               
+        print("Id:", i, "Con el nombre:", name[i], " con el apellido:", lastName[i], "Con la e...
         case 3:
             name = ""
             lastName = ""
